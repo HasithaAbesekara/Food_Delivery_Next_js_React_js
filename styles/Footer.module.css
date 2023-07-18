@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 6rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(1deg, rgba(250, 211, 211, 0.85)0%, rgba(255, 255, 255, 0)14rem);
+}
+
+.container>span {
+    color: var(--themeRed);
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--themeRed);
+}
+
+.logo>span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+    gap: 1rem;
+}
+
+.social>* {
+    fill: var(--themeRed);
+}

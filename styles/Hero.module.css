@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    position: relative;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cherryDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    background-color: var(--pink);
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    color: var(--themeRed);
+    font-weight: bold;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.miniText {
+    width: 70%;
+    color: var(--gray);
+    font-weight: 600;
+}
+
+.btn {
+    padding: 1rem 2rem;
+}
+
+.right {
+    position: relative;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.imageContainer>Image {
+    border-radius: 20px;
+}
+
+.ContactUs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: max-content;
+    padding: 1rem;
+    border-radius: 5rem;
+    top: 3rem;
+    left: 4rem;
+    gap: 1rem;
+    background-color: wheat;
+    box-shadow: var(--shadow);
+    color: var(--themeRed);
+}
+
+.ContactUs>div {
+    background: rgb(59 208 59);
+    border-radius: 50%;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+}
+
+.ContactUs:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
